@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Naveen Super Market</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Naveen Super Market</h1>
+<div class="cart">🛒 Cart: <span id="cartCount">0</span></div>
+</header>
+
+<h2>Products</h2>
+
+<div class="products">
+
+<div class="product">
+<h3>Apple</h3>
+<p>₹120 / kg</p>
+<button onclick="addToCart('Apple')">Add to Cart</button>
+</div>
+
+<div class="product">
+<h3>Milk</h3>
+<p>₹60 / litre</p>
+<button onclick="addToCart('Milk')">Add to Cart</button>
+</div>
+
+<div class="product">
+<h3>Rice</h3>
+<p>₹70 / kg</p>
+<button onclick="addToCart('Rice')">Add to Cart</button>
+</div>
+
+<div class="product">
+<h3>Bread</h3>
+<p>₹40</p>
+<button onclick="addToCart('Bread')">Add to Cart</button>
+</div>
+
+</div>
+
+<h2>Your Cart</h2>
+<ul id="cartItems"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
